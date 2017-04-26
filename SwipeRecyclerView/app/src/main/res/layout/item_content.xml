@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/item_layout">
+
+        <TextView
+            android:id="@+id/content_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:text="item" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_dark"/>
+
+        <TextView
+            android:id="@+id/content_delete"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="@android:color/holo_green_light"
+            android:text="侧滑菜单"
+            android:textSize="20sp"
+            android:paddingTop="30dp"/>
+    </LinearLayout>
